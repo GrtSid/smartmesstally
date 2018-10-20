@@ -5,21 +5,23 @@
     <title>Smart Mess Tally</title>
     <link rel="stylesheet" href="C:\Users\Siddhant Agarwal\Desktop\Hackathon\smartmesstally\messtally\static\css\mess.css">
     <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
   </head>
-  <body>
-    <div class="portal">
-      <div class="header">
-        <h1>Smart Mess</h1>
-      </div>
-        <form class="authenticate" action="home.html" method="post">
-          <label for="username"><strong>User Name:</strong></label><br><br>
-          <input type="text" value="Enter Username" ><br>
-          <br>
-          <label for="password"><strong>Password:</strong></label><br><br>
-          <input type="password" value="password"><br><br><br>
-          <input type="submit" value="Submit" class="button1">
-        </form>
+  <body class="adc">
+    <div class="login-page">
+  <div class="form">
+    <form class="login-form" action="home.html" method="post">
+      <h1 id="log">Welcome</h1>
+      <input type="text" placeholder="username"/>
+      <input type="password" placeholder="password"/>
+      <button>Login</button>
+    </form>
+  </div>
+</div>
+<script src="mess.js">
 
-      </div>
-
-    </div>
+</script>
+</body>
+</html>
